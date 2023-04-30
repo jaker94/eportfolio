@@ -164,7 +164,7 @@ header {
 }
 
 .dark-theme #personal-logo {
-    filter:none;
+    filter:invert(1);
 }
 
 .dark-theme .scroll__icon {
@@ -283,7 +283,6 @@ NAV BAR
 #personal-logo{
     width:50px;
     height:50px;
-    filter:invert(1)
 }
 
 nav {
@@ -608,6 +607,8 @@ footer {
 
 .footer__logo--img {
     width: 70px;
+    color:white;
+    filter:invert(1)
     
 }
 
